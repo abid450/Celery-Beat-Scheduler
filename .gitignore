@@ -1,0 +1,66 @@
+# ============= Environment Variables =============
+.env
+beat.env
+*.env
+.env.*
+*.env.local
+
+# ============= Virtual Environment =============
+venv/
+env/
+ENV/
+.venv/
+.env/
+venv.bak/
+env.bak/
+lib64/
+bin/
+include/
+share/
+pyvenv.cfg
+
+# ============= Python =============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ============= Database =============
+db.sqlite3
+*.db
+*.sqlite3
+
+# ============= Celery =============
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# ============= Django =============
+*.log
+/static
+/staticfiles
+/media
+/mediafiles
+
+# ============= IDE =============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============= OS =============
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ============= Logs =============
+logs/
+*.log
